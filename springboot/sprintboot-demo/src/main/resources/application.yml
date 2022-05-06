@@ -1,6 +1,6 @@
 spring:
   devtools:
     restart:
-      enabled: true #?????
-      additional-paths: src/main/java #????
-      exclude: static/**,templates/** #classpath????templates??????????
+      enabled: true #热部署
+      additional-paths: src/main/java #扫描路径
+      exclude: static/**,templates/** #排除路径
